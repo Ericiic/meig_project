@@ -1,4 +1,5 @@
 # Start SSH agent and add key
 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/my_key
 
-ssh-add /c/Users/luoxunxing/.ssh/my_key
